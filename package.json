@@ -1,17 +1,17 @@
 {
   "name": "yishi-obsidian",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "license": "Apache-2.0",
-  "description": "Manage projects with a three-column task board, three-level subtasks, Markdown, and local JSON backups.",
+  "description": "Manage projects with a bilingual task board, three-level subtasks, Markdown, and local JSON backups.",
   "engines": {
     "node": ">=22"
   },
   "scripts": {
     "build": "node scripts/build.mjs",
     "test": "node --test tests/*.test.mjs",
-    "check": "node --check obsidian/main.mjs && node --check obsidian/store.mjs && node --check public/model.mjs && node --check public/workbench.mjs && node --check scripts/build-obsidian.mjs"
+    "check": "node --check obsidian/main.mjs && node --check obsidian/store.mjs && node --check public/model.mjs && node --check public/workbench.mjs && node --check public/i18n.mjs && node --check scripts/build-obsidian.mjs"
   },
   "devDependencies": {
     "esbuild": "0.28.2"
