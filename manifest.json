@@ -1,0 +1,9 @@
+{
+  "id": "yishi",
+  "name": "Yishi",
+  "version": "1.0.3",
+  "minAppVersion": "1.15.1",
+  "description": "Manage projects with a three-column task board, three-level subtasks, Markdown, and local JSON backups.",
+  "author": "Yishi",
+  "isDesktopOnly": true
+}

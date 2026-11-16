@@ -1,0 +1,12 @@
+node_modules/
+dist/
+test-results/
+.obsidian/
+data/
+*.log
+*.bak
+workspace*.json
+recovery-*.json
+.env*
+/main.js
+/styles.css
