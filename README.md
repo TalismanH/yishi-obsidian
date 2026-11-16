@@ -31,8 +31,6 @@ Yishi/backups/               Exports and backups made before imports/restores
 Yishi/recovery-<id>.json      Recovery copies for unsaved edits
 ```
 
-The old `Yishi/` folder is copied automatically on first load when no `Yishi/workspace.json` exists. The workspace, revision, previous-version backup, exports, and recovery copies are preserved. Copies are verified before the main file is installed. The old folder remains untouched; existing Yishi workspaces are never overwritten. A busy, corrupt, or failed migration stops without resetting the source.
-
 The old `一事/` folder is copied automatically on first load when no `Yishi/workspace.json` exists. The workspace, revision, previous-version backup, exports, and recovery copies are preserved. Copies are verified before the main file is installed. The old folder remains untouched; existing Yishi workspaces are never overwritten. A busy, corrupt, or failed migration stops without resetting the source.
 
 These files are separate from the plugin installation folder. Uninstalling the plugin leaves task data in place. Appearance preferences use Obsidian's plugin settings storage.
