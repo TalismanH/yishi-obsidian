@@ -14,6 +14,8 @@ A local task workbench for Obsidian desktop. Organize projects across Todo, Doin
 
 Requires Obsidian **1.15.1 or newer on desktop**. Mobile is not supported.
 
+Install from the [Obsidian Community directory](https://community.obsidian.md/plugins/yishi) using **Add to Obsidian**, then enable **Yishi** in Community plugins.
+
 For manual installation, download `main.js`, `manifest.json`, and `styles.css` from a release and place them in your vault's configuration directory under `plugins/yishi/` (normally `.obsidian/plugins/yishi/`). Enable **Yishi** in Community plugins, then use the ribbon icon or **Yishi: 打开工作台** in the command palette.
 
 ## Data, privacy, and recovery
